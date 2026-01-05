@@ -1,0 +1,13 @@
+# Similarity configuration
+metrics:
+  categorical: jaccard
+  numeric: cosine
+  color: delta_e
+  vector: weighted_cosine
+fusion:
+  strategy: weighted_sum
+  threshold: 0.65
+  top_k: 5
+explainability:
+  top_features: 3
+  detail_level: high

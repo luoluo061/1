@@ -1,0 +1,14 @@
+{
+  "variety_id": "v010",
+  "sections": {
+    "identity": {"variety_id": "v010", "species": "chrysanthemum", "seasonality": "autumn"},
+    "morphology": {
+      "flower_shape": "pompon",
+      "flower_diameter_cm": 13,
+      "color_primary": "#ffee00",
+      "stem_length_cm": 52
+    },
+    "vase_performance": {"vase_life_days": 9, "fragrance": "none"}
+  },
+  "summary": "品种 v010 展现 pompon 形态，主色为 #ffee00，花径约 13cm，茎长 52cm，适用于多场景瓶插。"
+}

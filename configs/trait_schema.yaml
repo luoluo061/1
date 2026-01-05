@@ -1,0 +1,48 @@
+# Trait schema for flower varieties
+traits:
+  - name: variety_id
+    type: string
+    required: true
+    description: Unique identifier for the variety
+  - name: species
+    type: categorical
+    required: true
+    allowed: [rose, lily, tulip, carnation, chrysanthemum]
+    description: Botanical category
+  - name: flower_shape
+    type: categorical
+    required: true
+    allowed: [single, double, pompon, star, trumpet]
+    description: High-level flower shape descriptor
+  - name: flower_diameter_cm
+    type: numeric
+    required: true
+    min: 1
+    max: 30
+    description: Diameter of bloom in centimeters
+  - name: color_primary
+    type: color
+    required: true
+    description: Primary petal color in hex or named form
+  - name: stem_length_cm
+    type: numeric
+    required: true
+    min: 10
+    max: 150
+    description: Fresh cut stem length
+  - name: vase_life_days
+    type: numeric
+    required: true
+    min: 1
+    max: 30
+    description: Vase life in days under standard conditions
+  - name: fragrance
+    type: categorical
+    required: false
+    allowed: [none, light, medium, strong]
+    description: Fragrance intensity
+  - name: seasonality
+    type: categorical
+    required: false
+    allowed: [spring, summer, autumn, winter, all]
+    description: Typical harvest season

@@ -1,0 +1,14 @@
+{
+  "variety_id": "v001",
+  "sections": {
+    "identity": {"variety_id": "v001", "species": "rose", "seasonality": "summer"},
+    "morphology": {
+      "flower_shape": "double",
+      "flower_diameter_cm": 12,
+      "color_primary": "#ff6677",
+      "stem_length_cm": 60
+    },
+    "vase_performance": {"vase_life_days": 12, "fragrance": "medium"}
+  },
+  "summary": "品种 v001 展现 double 形态，主色为 #ff6677，花径约 12cm，茎长 60cm，适用于多场景瓶插。"
+}

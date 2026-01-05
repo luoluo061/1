@@ -1,0 +1,28 @@
+# Profiling rules for generating variety profiles
+sections:
+  - name: identity
+    fields:
+      - variety_id
+      - species
+      - seasonality
+  - name: morphology
+    fields:
+      - flower_shape
+      - flower_diameter_cm
+      - color_primary
+      - stem_length_cm
+  - name: vase_performance
+    fields:
+      - vase_life_days
+      - fragrance
+narratives:
+  diameter:
+    thresholds:
+      compact: 5
+      medium: 10
+      large: 15
+  stem_length:
+    thresholds:
+      short: 20
+      medium: 50
+      tall: 80

@@ -1,0 +1,14 @@
+# Default trait weights
+weights:
+  species: 0.1
+  flower_shape: 0.15
+  flower_diameter_cm: 0.2
+  color_primary: 0.15
+  stem_length_cm: 0.15
+  vase_life_days: 0.15
+  fragrance: 0.05
+  seasonality: 0.05
+constraints:
+  min_weight: 0.0
+  max_weight: 1.0
+  normalization: l1

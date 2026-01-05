@@ -1,0 +1,33 @@
+# Vector schema mapping traits to feature slots
+schema:
+  id: flower_vector_v1
+  dimensions:
+    - name: species
+      type: one_hot
+      vocab: [rose, lily, tulip, carnation, chrysanthemum]
+    - name: flower_shape
+      type: one_hot
+      vocab: [single, double, pompon, star, trumpet]
+    - name: flower_diameter_cm
+      type: scaled_numeric
+      range: [0, 50]
+    - name: color_primary
+      type: color_lab
+      description: Convert hex color to LAB triplet
+    - name: stem_length_cm
+      type: scaled_numeric
+      range: [0, 200]
+    - name: vase_life_days
+      type: scaled_numeric
+      range: [0, 40]
+    - name: fragrance
+      type: ordinal
+      order: [none, light, medium, strong]
+    - name: seasonality
+      type: cyclical
+      mapping:
+        spring: 0.0
+        summer: 0.25
+        autumn: 0.5
+        winter: 0.75
+        all: 1.0

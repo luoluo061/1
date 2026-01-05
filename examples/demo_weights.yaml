@@ -1,0 +1,31 @@
+schemes:
+  - name: balanced
+    weights:
+      species: 0.12
+      flower_shape: 0.14
+      flower_diameter_cm: 0.2
+      color_primary: 0.14
+      stem_length_cm: 0.16
+      vase_life_days: 0.14
+      fragrance: 0.05
+      seasonality: 0.05
+  - name: longevity_focus
+    weights:
+      species: 0.08
+      flower_shape: 0.1
+      flower_diameter_cm: 0.15
+      color_primary: 0.12
+      stem_length_cm: 0.2
+      vase_life_days: 0.25
+      fragrance: 0.05
+      seasonality: 0.05
+  - name: color_shape_focus
+    weights:
+      species: 0.08
+      flower_shape: 0.2
+      flower_diameter_cm: 0.18
+      color_primary: 0.22
+      stem_length_cm: 0.12
+      vase_life_days: 0.1
+      fragrance: 0.05
+      seasonality: 0.05
